@@ -10,6 +10,14 @@ namespace Hello
 	{
 		static void Main(string[] args)
 		{
+			string name;
+
+			Console.WriteLine("HELLO WORLD");
+			Console.WriteLine("===========");
+
+            Console.Write("Your name: ");
+            name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}!");
 		}
 	}
 }
